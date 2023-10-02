@@ -10,8 +10,8 @@ model=pickle.load(open(r'C:\Users\brill\OneDrive\Documents\DScourse\Heart predic
 df=pd.read_csv('heart_failure_clinical_records_dataset.csv')
 st.set_page_config(page_title= 'Heart Risk prediction', layout= 'wide')
 
-image =  Image.open(r'C:\Users\brill\OneDrive\Desktop\heart ML.jpg')
-st.image(image, use_column_width = True)
+##image =  Image.open(r'C:\Users\brill\OneDrive\Desktop\heart ML.jpg')
+##st.image(image, use_column_width = True)
 
 
 
