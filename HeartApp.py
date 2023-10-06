@@ -5,8 +5,9 @@ from tensorflow import keras
 from PIL import Image
 import pickle
 
-model=pickle.load(open(r'C:\Users\brill\OneDrive\Documents\DScourse\Heart prediction\logistic_regression_model.pkl', 'rb'))
-
+#model=pickle.load(open(r'C:\Users\brill\OneDrive\Documents\DScourse\Heart prediction\logistic_regression_model.pkl', 'rb'))
+namefile = 'logistic_regression_model.pkl'
+model = pickle.load(open(namefile, 'rb'))
 df=pd.read_csv('heart_failure_clinical_records_dataset.csv')
 st.set_page_config(page_title= 'Heart Risk prediction', layout= 'wide')
 
